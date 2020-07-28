@@ -40,17 +40,14 @@ namespace SerialPort
             String dtn = dt.ToShortTimeString();
 
             if (withSent == 1 && withReceived == 0)
-            {
-                txtReceive.Text += ("[" + dtn + "] " + "Sent: " + input + "\r\n");
-            }
+
+            {txtReceive.Text += ("[" + dtn + "] " + "Sent: " + input + "\r\n");}
+
             else if(withSent == 0 && withReceived == 1)
-            {
-                txtReceive.Text += ("[" + dtn + "] " + "Received: " + input + "\r\n");
-            }
+            {txtReceive.Text += ("[" + dtn + "] " + "Received: " + input + "\r\n");}
+
             else
-            {
-                txtReceive.Text += ("[" + dtn + "] " + input + "\r\n");
-            }
+            {txtReceive.Text += ("[" + dtn + "] " + input + "\r\n");}
 
             txtReceive.SelectionStart = txtReceive.Text.Length;
             txtReceive.ScrollToCaret();

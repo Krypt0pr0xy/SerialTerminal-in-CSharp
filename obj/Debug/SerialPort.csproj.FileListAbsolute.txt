@@ -30,3 +30,13 @@ C:\Users\Cyrill Wyller\source\repos\SerialPort\obj\Debug\SerialPort.csproj.Gener
 C:\Users\Cyrill Wyller\source\repos\SerialPort\obj\Debug\SerialPort.csproj.CoreCompileInputs.cache
 C:\Users\Cyrill Wyller\source\repos\SerialPort\obj\Debug\SerialPort.exe
 C:\Users\Cyrill Wyller\source\repos\SerialPort\obj\Debug\SerialPort.pdb
+C:\Users\Cyrill Wyller\source\repos\Krypt0pr0xy\SerialTerminal\bin\Debug\SerialPort.exe.config
+C:\Users\Cyrill Wyller\source\repos\Krypt0pr0xy\SerialTerminal\bin\Debug\SerialPort.exe
+C:\Users\Cyrill Wyller\source\repos\Krypt0pr0xy\SerialTerminal\bin\Debug\SerialPort.pdb
+C:\Users\Cyrill Wyller\source\repos\Krypt0pr0xy\SerialTerminal\obj\Debug\SerialPort.csprojAssemblyReference.cache
+C:\Users\Cyrill Wyller\source\repos\Krypt0pr0xy\SerialTerminal\obj\Debug\SerialPort.Form1.resources
+C:\Users\Cyrill Wyller\source\repos\Krypt0pr0xy\SerialTerminal\obj\Debug\SerialPort.Properties.Resources.resources
+C:\Users\Cyrill Wyller\source\repos\Krypt0pr0xy\SerialTerminal\obj\Debug\SerialPort.csproj.GenerateResource.cache
+C:\Users\Cyrill Wyller\source\repos\Krypt0pr0xy\SerialTerminal\obj\Debug\SerialPort.csproj.CoreCompileInputs.cache
+C:\Users\Cyrill Wyller\source\repos\Krypt0pr0xy\SerialTerminal\obj\Debug\SerialPort.exe
+C:\Users\Cyrill Wyller\source\repos\Krypt0pr0xy\SerialTerminal\obj\Debug\SerialPort.pdb
