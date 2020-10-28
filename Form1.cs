@@ -79,10 +79,23 @@ namespace SerialPort
             catch (Exception ex) { MessageBox.Show(ex.ToString(), "Error"); connected = false; }
         }
 
+        char LF = (char)10;
+        StringBuilder sb = new StringBuilder();
+
         private void sport_DataReceived(object sender, SerialDataReceivedEventArgs e) 
         {
-            String data = sport.ReadExisting();
+            string data = "";
+            System.Threading.Thread.Sleep(250);
+
+            while (sport.BytesToRead > 0)
+            {
+                data += sport.ReadExisting();
+               
+            }
+            //string data = sport.ReadExisting();
             txtReceiveAppendText(data, 0, 1);
+
+
         }
 
         private void cmdConnect_Click(object sender, EventArgs e)
