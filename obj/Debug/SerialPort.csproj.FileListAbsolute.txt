@@ -50,3 +50,13 @@ C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp2\obj\Debug\SerialPo
 C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp2\bin\Debug\SerialPort.exe.config
 C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp2\bin\Debug\SerialPort.exe
 C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp2\bin\Debug\SerialPort.pdb
+C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp4\bin\Debug\SerialPort.exe.config
+C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp4\bin\Debug\SerialPort.exe
+C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp4\bin\Debug\SerialPort.pdb
+C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp4\obj\Debug\SerialPort.csprojAssemblyReference.cache
+C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp4\obj\Debug\SerialPort.Form1.resources
+C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp4\obj\Debug\SerialPort.Properties.Resources.resources
+C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp4\obj\Debug\SerialPort.csproj.GenerateResource.cache
+C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp4\obj\Debug\SerialPort.csproj.CoreCompileInputs.cache
+C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp4\obj\Debug\SerialPort.exe
+C:\Users\Cyrill Wyller\Source\Repos\SerialTerminal-in-CSharp4\obj\Debug\SerialPort.pdb

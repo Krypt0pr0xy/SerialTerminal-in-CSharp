@@ -41,13 +41,13 @@ namespace SerialPort
 
             if (withSent == 1 && withReceived == 0)
 
-            {txtReceive.Text += ("[" + dtn + "] " + "Sent: " + input + "\r\n");}
+            {txtReceive.Text += ("[" + dtn + "] " + "Sent: " + input); txtReceive.Text += "\r\n";}
 
             else if(withSent == 0 && withReceived == 1)
-            {txtReceive.Text += ("[" + dtn + "] " + "Received: " + input + "\r\n");}
+            {txtReceive.Text += ("[" + dtn + "] " + "Received: " + input); txtReceive.Text += "\r\n"; }
 
             else
-            {txtReceive.Text += ("[" + dtn + "] " + input + "\r\n");}
+            {txtReceive.Text += ("[" + dtn + "] " + input); txtReceive.Text += "\r\n"; }
 
             txtReceive.SelectionStart = txtReceive.Text.Length;
             txtReceive.ScrollToCaret();
@@ -57,9 +57,17 @@ namespace SerialPort
         {
             if (e.KeyCode == Keys.Enter)
             {
-                String data = txtDatatoSend.Text;
-                sport.Write(data);
-                txtReceiveAppendText(data,1,0);
+                if (connected)
+                {
+                    String data = txtDatatoSend.Text;
+                    sport.Write(data);
+                    sport.Write("\r");
+                    txtReceiveAppendText(data, 1, 0);
+                }
+                else
+                {
+                    txtReceiveAppendText("Error Not-Connected", 0, 0);
+                }
             }
         }
 
@@ -121,6 +129,7 @@ namespace SerialPort
             {
                 String data = txtDatatoSend.Text;
                 sport.Write(data);
+                sport.Write("\r");
                 txtReceiveAppendText(data, 1, 0);
             }
             else
