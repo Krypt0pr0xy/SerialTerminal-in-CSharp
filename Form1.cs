@@ -93,16 +93,15 @@ namespace SerialPort
         private void sport_DataReceived(object sender, SerialDataReceivedEventArgs e) 
         {
             string data = "";
-            System.Threading.Thread.Sleep(250);
-
+            //System.Threading.Thread.Sleep(250);
             while (sport.BytesToRead > 0)
             {
-                data += sport.ReadExisting();
-               
+                data = sport.ReadExisting();
+                data = data.Replace("\0", string.Empty);
+                txtReceive.Text += data;
+                txtReceive.SelectionStart = txtReceive.Text.Length;
+                txtReceive.ScrollToCaret();
             }
-            //string data = sport.ReadExisting();
-            txtReceiveAppendText(data, 0, 1);
-
 
         }
 
@@ -130,7 +129,7 @@ namespace SerialPort
                 String data = txtDatatoSend.Text;
                 sport.Write(data);
                 sport.Write("\r");
-                txtReceiveAppendText(data, 1, 0);
+                txtReceiveAppendText(data, 0, 0);
             }
             else
             {
